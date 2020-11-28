@@ -208,3 +208,46 @@ div {
   right: 90px;
   top: 20px;
 }
+
+.servicos-itens {
+  background: url("../img/bg-services.webp");
+}
+
+.servico-itens ul li {
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.servicos-seta {
+  color: #f7a801;
+  margin-right: 7px;
+}
+
+.txt-servico {
+  font-family: "Open Sans", Sans-serif;
+  color: #1b242b;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.textofinal-servico {
+  text-align: center;
+  color: #8d98a1;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: 70px 0;
+}
+.textofinal-servico p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.call-servicos {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
