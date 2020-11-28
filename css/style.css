@@ -2,9 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
-
 /* Header */
 
 .introducao {
@@ -69,4 +66,73 @@ body {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.6px;
+}
+.header_menu ul li a:hover {
+  color: #f7a801;
+}
+
+/* FIM - Header */
+.call_action {
+  /* background-color: green; */
+  height: 350px;
+  text-align: center;
+  margin-top: 188px;
+}
+.call_action h1,
+div {
+  color: #fff;
+  text-align: center;
+}
+.call_action h1 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 0px;
+  padding: 0px 15px 0px 15px;
+  margin: 17px 0px 0px 0px;
+}
+
+.call_action h1:first-child {
+  margin-left: 123px;
+}
+
+.call-enfase {
+  font-family: "Raleway", Sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -0.3px;
+  padding: 0px 15px 0px 15px;
+  margin: 32px 0px 77px 0px;
+}
+
+.call-enfase::after {
+  content: "";
+  display: block;
+  width: 480px;
+  height: 4px;
+  background: #fff;
+  margin: 8px auto;
+}
+
+.btn-call {
+  color: #fff;
+  font-size: 14px;
+  /* line-height: 20px; */
+  /* font-weight: 800px; */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  padding: 17px 45px 19px 45px;
+  margin: 38px 0px 0px 15px;
+  background-color: #f7a801;
+  border-radius: 0px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.btn-call:hover {
+  background-color: #19191a;
 }
