@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+
+/* Header */
+
+.introducao {
+  background: url("../img/car-header.png") no-repeat center;
+  height: 820px;
+  width: 100%;
+  background-size: cover !important;
+}
+
+.introducao header {
+  height: 102px;
+  background-color: #19191a;
+}
+
+.container-header {
+  padding-top: 17px;
+}
+
+.logo {
+  line-height: 102px;
+}
+.logo-img {
+  width: 50px;
+  /* border-right: 1px solid #fff; */
+}
+
+.logo-img::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 60px;
+  background: #fff;
+  margin: 8px auto;
+}
+.logo span {
+  color: #fff;
+  position: relative;
+  bottom: 12px;
+  left: 6px;
+  font-family: Raleway, sans-serif;
+}
+
+.header_menu {
+  text-align: right;
+}
+.header_menu ul {
+  height: 100%;
+  width: 100%;
+  padding-top: 9px;
+}
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.header_menu ul li a {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
