@@ -264,7 +264,7 @@ div {
 .qualificacao-title {
   margin-top: 60px;
   color: #1b242b;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 27px;
   font-weight: lighter;
   text-transform: uppercase;
@@ -314,4 +314,70 @@ div {
   margin-top: 15px;
   padding: 8px 10px;
   padding-bottom: 27px;
+}
+
+/* Fim Qualificação */
+
+/* Sobre */
+.sobre {
+  background-color: #1b242b;
+  padding-bottom: 80px;
+}
+
+.sobre-title {
+  color: #757981;
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.sobre-subtitle {
+  color: #ffffff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.25em;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+
+.sobre-subtitle2 {
+  color: #ffffff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.container-estatistica {
+  margin-top: 60px;
+}
+.estatistica {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.estatistica span {
+  color: #f7a801;
+  font-family: "Raleway", Sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1em;
+  margin-right: 5px;
+  position: relative;
+  margin: 0 auto;
+}
+.estatistica h2 {
+  color: #ffffff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.9px;
+  margin: 0 auto;
+  margin-top: 5px;
 }
