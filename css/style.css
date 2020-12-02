@@ -381,3 +381,74 @@ div {
   margin: 0 auto;
   margin-top: 5px;
 }
+
+/* Fim Sobre */
+
+/* Depoimentos */
+.depoimentos {
+  text-align: center;
+  background-color: #f6f6f7;
+  padding-bottom: 60px;
+}
+.depoimentos h2 {
+  color: #b7b9be;
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.depoimentos p {
+  color: #1b242b;
+  font-family: "Raleway", Sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -0.2px;
+}
+
+.depoimentos-container {
+  margin-top: 50px;
+}
+
+.depoimento-grid {
+  background-color: #fff;
+  padding: 25px;
+}
+.depoimento-autor {
+  color: #1b242b;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin-top: 15px;
+}
+.depoimento-data {
+  color: #8d98a1;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.depoimento-quote {
+  display: flex;
+}
+.depoimento-quote span {
+  color: #f7aa3c;
+  margin-right: 10px;
+}
+
+.depoimento-quote p {
+  color: #8d98a1;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-transform: initial;
+  text-align: left;
+}
