@@ -452,3 +452,41 @@ div {
   text-transform: initial;
   text-align: left;
 }
+
+/* FIM - Depoimentos */
+
+/* Contato */
+
+.contato-info {
+  background-color: #f7aa3c;
+  padding-bottom: 80px;
+}
+
+.grid-contato {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+.contato-dados {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.contato-dados p {
+  color: #ffffff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.contato-dados p:last-child {
+  font-weight: 700;
+  line-height: 1.5em;
+  letter-spacing: 0.7px;
+}
+
+.contato-mapa img {
+  width: 100%;
+}
