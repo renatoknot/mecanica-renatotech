@@ -25,7 +25,6 @@ body {
 }
 .logo-img {
   width: 50px;
-  /* border-right: 1px solid #fff; */
 }
 
 .logo-img::after {
@@ -489,4 +488,59 @@ div {
 
 .contato-mapa img {
   width: 100%;
+}
+
+/* FIM - CONTATO */
+
+/* FOOTER */
+
+.footer {
+  background-color: #19191a;
+}
+
+.logo-footer {
+  line-height: 20px;
+  margin-top: 17px;
+}
+
+.logo-img-footer {
+  width: 50px;
+}
+
+.logo-footer span {
+  color: #fff;
+  position: relative;
+  bottom: 12px;
+  left: 6px;
+  font-family: Raleway, sans-serif;
+}
+
+.logo-footer::after {
+  content: "";
+  display: inline-block;
+  width: 175px;
+  height: 2px;
+  background: #fff;
+  margin: 8px auto;
+}
+
+.copy {
+  clear: both;
+}
+.redes {
+  float: right;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.redes i {
+  color: #fff;
+}
+
+.redes i:hover {
+  color: #f7aa3c;
+}
+.redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
 }
