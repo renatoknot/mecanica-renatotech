@@ -1,0 +1,42 @@
+/* Estilo para Tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+}
+
+@media only screen and (max-width: 787px) {
+  .introducao header {
+    height: 120px;
+  }
+
+  .container-header {
+    padding-top: 0px;
+  }
+
+  .header_menu ul li {
+    margin-top: -116px;
+    margin-left: 4px;
+  }
+
+  .call_action {
+    margin-top: 28px;
+  }
+
+  .call_action h1:first-child {
+    margin-left: 0px;
+  }
+
+  .call_action h1 {
+    font-size: 44px;
+  }
+
+  .call-enfase {
+    font-size: 52px;
+  }
+
+  .call-enfase::after {
+    width: 309px;
+  }
+
+  .servicos-imagens i {
+    right: 128px;
+  }
+}
